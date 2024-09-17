@@ -1,0 +1,67 @@
+
+.mochilas {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #fe48aa;
+    color: rgb(2, 0, 0);
+    border-right: 30px;
+}
+
+.estojos {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #fe48aa;
+    color: rgb(2, 0, 0);
+    border-left: 30px;
+}
+
+.chaveiros{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #fe48aa;
+    color: rgb(2, 0, 0);
+    border-right: 30px;
+}
+
+.necessaire {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #fe48aa;
+    color: rgb(2, 0, 0);
+    border-left: 30px;
+}
+
+.produtos {
+    width: 1000px;
+    height: 55px;
+    border-radius: 20px;
+    background-color: #fe48aa;
+    color: rgb(2, 0, 0);
+    font-size: 20px;
+}
+
+#table1 {
+    width: 50px;
+    height: 50px;
+    border: 80px solid white;
+    align-items: center;
+    margin-left: 16%;
+    display: flex;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.categorias {
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+}
+
+.imagem{
+    height: 510px;
+    width: 1000px;
+}

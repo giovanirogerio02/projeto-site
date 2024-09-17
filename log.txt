@@ -1,0 +1,24 @@
+Produto adicionado ao carrinho: Array
+(
+    [8] => Array
+        (
+            [id] => 8
+            [nome] => Necessaire Transparente
+            [preco] => 49.00
+            [quantidade] => 3
+        )
+
+)
+
+Produto adicionado ao carrinho: Array
+(
+    [8] => Array
+        (
+            [id] => 8
+            [nome] => Necessaire Transparente
+            [preco] => 49.00
+            [quantidade] => 4
+        )
+
+)
+

@@ -1,0 +1,441 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.card-login {
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group input {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #ff69b4; 
+    border: 2px solid #ff1493;
+    color: white; 
+}
+
+.card-home {
+    padding: 30px 0 0 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cria {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+#clientes {
+    color: #fe48aa ;
+}
+
+#bottom:hover{
+
+    background-color: #ffffff;
+    border-color: white;
+}
+
+#bottom2:hover{
+    background-color: #ffffff;
+    border-color: white;
+}
+#login{
+    
+    color: #fe48aa;
+    
+}
+
+#criar{
+    text-align: center;
+}
+
+#eSenha{
+    font-size: 15px;
+}
+
+#voltar{
+    text-align: center;
+    border: 2px solid black;
+}
+
+#bem{
+    border-right: 4px solid;
+    white-space: nowrap;
+    width: 14ch;
+    overflow: hidden;
+    animation: animaTexto steps(14) 2s, animaMarcador 0.5s linear infinite;
+
+}
+
+@keyframes animaMarcador{
+    50%{
+        border-right: transparent;
+    }
+}
+
+@keyframes animaTexto{
+    0%{
+        width: 0;
+    }
+}
+
+#botao2{
+    border: none;
+    background:none;
+}
+
+#menuu{
+    height: 80vh;
+    margin-left: 83%;
+    width: 17%;
+    text-align: center;
+    padding-top: 1%;
+    border-radius: 5px;
+
+}
+.c6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+.coluna{
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 0.5s;
+    height: 50px;
+
+}
+.coluna:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.bot{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.c1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+.c2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+.c4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+.c5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+.card-home {
+  padding: 30px 0 0 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cabecalho, .containera {
+    width: 100%;
+    background-color: #fe48aa;
+    background-size: cover;
+  }
+  
+  #botao {
+    background-color: #fe48aa; 
+    border-color: white;
+    color: white;
+  }
+  
+  #botao:hover {
+    background-color: #fe48aa;
+    border-color: white;
+    transform: scale(1.1);
+  }  
+
+#sair{
+  text-align: center;
+}
+a { 
+  color: inherit; 
+} 
+a:hover {
+  color: #fe48aa;
+}
+.coracao{
+    transition: 0.2s;
+}
+.coracao:hover{
+    transform: scale(1.2);
+    color: black;
+}
+.carrinho{
+    transition: 0.2s;
+}
+.carrinho:hover{
+    transform: scale(1.2);
+    color: black;
+}
+.meenu{
+    transition: 0.2s;
+}
+.meenu:hover{
+    transform: scale(1.2);
+    color: black;
+}
+
+
+.imagemi{
+    margin-top: -70px;
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    transition: 0.2s;
+}
+.imagemi:hover{
+    transform: scale(1.2);
+}
+.try{
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.try:hover{
+    animation: teste 10s;
+}
+@keyframes teste{
+    0%{
+
+    }
+    10%{
+        margin-left: 20%;
+    }
+    20%{
+        margin-left: 30%;
+    }
+    40%{
+        margin-left: 60%;
+    }
+    60%{
+       margin-left: 30%;
+    }
+    80%{
+        margin-left: 50%;
+    }
+}
+#conteiner1{
+    width: 100% auto;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 8px;
+}
+.text{
+    visibility: hidden;
+    font-size: 30px;
+    z-index: 1;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    box-shadow: black;
+    font-style: oblique;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.cards:hover .text{
+    visibility: visible;
+}
+
+.card1{
+    transition: 0.7s;
+}
+.card1:hover{
+    position: relative;
+    transform: scale(1.1);
+}
+
+.texto1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#criarproduto{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(to right, #c5c4c4, #fe48aa);
+}
+.formcriarprodutos{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.inputcriarprodutos{
+    width: 220px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#descricao{
+    height: 200px;
+}
+.containercriarprodutosform{
+    
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+#containerDeImagem{
+    display: flex;
+    flex-direction: row;
+}
+.imagemdoformcriarprodutos{
+    margin-top: 20px;
+    width: 400px;
+    height: 30px;
+}
+.imagemdoformcriarprodutos:hover{
+    cursor: pointer;
+}
+.submitdocriarprodutos{
+    transition: 0.4s;
+    width: 575px;
+}
+.submitdocriarprodutos:hover{
+    transform: scale(1.2);
+}
+#categorias{
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: #fe48aa;
+    display: flex;
+    justify-content: start;
+  
+}
+.cat{
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 3px;
+    transition: 0.4s;
+    font-style:oblique;
+}
+.cat:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+/* Ajustar tamanho da imagem do coração */
+.heart-icon {
+    width: 24px; /* Ajuste o valor conforme necessário */
+    height: 24px; /* Ajuste o valor conforme necessário */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.heart-icon:active {
+    transform: scale(1.2);
+}
+
+.heart-icon.bounce {
+    animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+}
+
+.alert-message {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
